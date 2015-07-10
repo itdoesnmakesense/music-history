@@ -65,6 +65,8 @@ a:link {
   margin-left: 15px;
   padding-bottom:
 }
+
+
 .range{
   width: 155px;
 }
@@ -73,28 +75,71 @@ a:link {
 }
 
 #genre-text{
-  font-size: 14px;
-  display: block;
+  font-size: 12px;
+  display: flex;
   margin: -10px 15px;
-  border: 2px solid black;
-  width: 155px;
-  height: auto; 
-}
-#padding{
+  /*border: 2px solid black;*/
+  min-width: 155px;
+  height: auto;
+  width:auto;
+  min-height: 90px; 
+  clear: both;
+  position: absolute;
+  text-align: justify;
+  
 
 }
-.button{
-  margin-top:10px;
-  margin-left: 25%;
-  width: 110px;
-  height:25px
+
+#column-one li {
+  width:77.5px;
+  list-style-type: none;
+  margin-left: -40px;
+  /*float:left;*/
   
+}
+
+#column-two li {
+  width:77.5px;
+  list-style-type: none;
+  margin-left: -50px;
+  white-space: nowrap;
+}
+
+#padding{
+
+
+}
+ #button-id {
+  width: 110px;
+  height:25px;
+  /*border: 2px solid black;*/
+  display: inline;
+
+   /*width: auto;*/
+   /*height: auto;*/
+
+  }
+.button{
+  border: 2px solid black;
+  border-radius: 5px 5px;
+  margin-top: 98px;
+  /*margin-left: 25%;*/
+  position: static;
+  width: 100%;
+  height: 100%;
+  min-width: 75px;
+  min-height: 25px;
+  /* margin: 0 auto;*/
+  padding: 0;
+  display: inherit;
 }
 
 
 
 
 /* Right Section */
+
+
 #songs-content {
   border: 2px solid black;
   width: 37.500em;
