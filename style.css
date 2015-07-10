@@ -61,7 +61,7 @@ a:link {
 
 .input {
   width:77px;
-  height: 25px;
+  height: 15px;
   margin-left: 15px;
   padding-bottom:
 }
@@ -74,11 +74,15 @@ a:link {
 
 #genre-text{
   font-size: 14px;
-  display: inline-block;
-  margin: -10px 15px 
+  display: block;
+  margin: -10px 15px;
+  border: 2px solid black;
+  width: 155px;
+  height: auto; 
 }
 #padding{
-  margin-right:
+ /* margin-left: 20px;
+  margin-right:20px;*/
 }
 .button{
   margin-top:10px;
