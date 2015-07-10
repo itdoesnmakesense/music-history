@@ -1,0 +1,148 @@
+/* header */
+#page{
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border: 1px dotted black;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  margin-left: -400px;
+  
+}
+.main-content {
+  border: 2px solid black;
+  background-color: #FFB4B0; 
+  padding:20px 20px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  width:800px;
+  height:25px;
+}
+
+.nav-content  {
+  font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top:5px;
+  margin-left: 10px;
+}
+a:link {
+  color:#1464F6;
+}
+
+#no-dec {
+  /*padding-right: 5px;*/
+  text-decoration: none;
+  color: #333;
+  /*border-right: 1px solid black;*/
+}
+.border-right{
+  border-right: 1.5px solid black;
+  padding-right: 5px;
+}
+
+
+/* Left Section */
+
+#options-box {
+  border: 2px solid black;
+  min-width: 190px;
+  height: 375px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 0px;
+  background-color: #4DD7FA;
+  float:left;
+  
+}
+.options-text {
+  margin-left: 15px;
+  font-size: 15px;  
+}
+
+.input {
+  width:77px;
+  height: 25px;
+  margin-left: 15px;
+  padding-bottom:
+}
+.range{
+  width: 155px;
+}
+.drop-down {
+  width: 155px;
+}
+
+#genre-text{
+  font-size: 14px;
+  display: inline-block;
+  margin: -10px 15px 
+}
+#padding{
+  margin-right:
+}
+.button{
+  margin-top:10px;
+  margin-left: 25%;
+  width: 110px;
+  height:25px
+  
+}
+
+
+
+
+/* Right Section */
+#songs-content {
+  border: 2px solid black;
+  width: 37.500em;
+  height: 23.688em;
+  margin:20px 15px 20px 15px;
+  /* margin-left: 15px; */
+  padding-left: 30px;
+  background-color: #4DD7FA;
+  float: left;
+  
+}
+/* #content-padding{
+  padding:5px 5px 20px 5px;
+  margin: 10px 10px 10px 10px;
+  position: absolute;
+ height: 200px;
+  padding-bottom: 20px;
+} */
+#song-name p{
+  width:auto;
+  height: auto;
+  border: 1px dotted black;
+  /* display: table-cell; */
+  text-align: left;
+  vertical-align: middle;
+  line-height: 30px;
+  color: #785616;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 0px;
+  margin-left: -10px;
+  /* clear: float; */ 
+}
+#name-list{
+  /* margin-left:-55px; */
+}
+
+#name-list li {
+  border: 1px dotted black;
+  margin-top:-20px;
+  font-size: 14px;
+  width: auto;
+  line-height: .5px;
+  /* display: table-cell; */
+  color: black;
+  /* text-align: ; */
+  display: inline-block;
+  /* overflow: hidden; */
+   
+}
+.list-padding{
+  padding-left: 10px;
+  
+}
