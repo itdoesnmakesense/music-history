@@ -9,9 +9,9 @@ songs[songs.length] = "Ironi!c > by Alanis Moris*ette on the album Jagged Little
 songs.unshift("Love Is A Losing Game > by Amy Winehouse on the album Back to Black");
 songs.push("Ice Princess > by Azealia Banks on the album Broke With Expensive Taste");
 for (var i = 0; i <= songs.length; i++) {
-	var revision = songs[i].replace(">", "-").replace("*", "").replace("@", "").replace("(", "").replace("!", ""); 
-	var music = document.getElementById("songs-content");
-	music.innerHTML += "<p>" + revision + "</p>";
+	var revision = songs[i].replace("> by", "</h2><p>").replace("on the album","|").replace("*", "").replace("@", "").replace("(", "").replace("!", ""); 
+	var music = document.getElementById("actual-songs");
+	music.innerHTML += "<div class='java-styling'><span><h2>" + revision + "</p></span></div>";
 }
 
 

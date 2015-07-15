@@ -2,21 +2,26 @@
 #page{
   font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
   border: 1px dotted black;
-  position: fixed;
-  top: 10%;
-  left: 50%;
-  margin-left: -400px;
+  display:flex;
+  flex-wrap: wrap; 
+  flex-direction: column; 
+  /*max-width: 53.500em;
+  width: 100%;*/
+  /*justify-content: auto;*/
   
 }
 .main-content {
   border: 2px solid black;
   background-color: #FFB4B0; 
   padding:20px 20px;
-  margin-top: 20px;
+ /* margin-top: 20px;
   margin-right: 10px;
-  margin-left: 10px;
-  width:800px;
+  margin-left: 10px;*/
+  /*max-width: 100%;*/
+  /*width: 50.750em;*/
   height:25px;
+  display: block;
+  /*flex-grow: 8;*/
 }
 
 .nav-content  {
@@ -40,20 +45,33 @@ a:link {
   padding-right: 5px;
 }
 
+#blue-container {
+  /*border: 3px dotted black;*/
+  /*flex-direction: row;*/
+  width: 100%;
+  height: 100%;
+
+}
+
 
 /* Left Section */
 
 #options-box {
   border: 2px solid black;
-  min-width: 190px;
-  height: 375px;
+  max-width: 11.875em;
+  max-height: 100%;
+  width: 100%;
+  height: 23.688em;
   margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 0px;
+  margin-bottom: 0px;
+/*  margin-left: 10px;
+  margin-right: 0px;*/
   background-color: #4DD7FA;
+  display: inline-block;
   float:left;
-  
+  /*flex-grow:2;*/ 
 }
+
 .options-text {
   margin-left: 15px;
   font-size: 15px;  
@@ -105,10 +123,6 @@ a:link {
   white-space: nowrap;
 }
 
-#padding{
-
-
-}
  #button-id {
   width: 110px;
   height:25px;
@@ -143,66 +157,33 @@ a:link {
 
 #songs-content {
   border: 2px solid black;
-  width: 37.500em;
+  max-width: 37.750em;
+  max-height: 100%;
+  width: 100%;
   height: 23.688em;
-  margin:20px 15px 20px 15px;
-  /* margin-left: 15px; */
-  padding-left: 30px;
+  margin-top:20px;
+  margin-left: 10px; 
+  /*padding-left: 30px;*/
   background-color: #4DD7FA;
-  float: left;
-  
-}
-/* #content-padding{
-  padding:5px 5px 20px 5px;
-  margin: 10px 10px 10px 10px;
-  position: absolute;
- height: 200px;
-  padding-bottom: 20px;
-} */
-#song-name p{
-  width:auto;
-  height: auto;
-  border: 1px dotted black;
-  /* display: table-cell; */
-  text-align: left;
-  vertical-align: middle;
-  line-height: 30px;
-  color: #785616;
-  font-size: 20px;
-  display: block;
-  margin-bottom: 0px;
-  margin-left: -10px;
-  /* clear: float; */ 
-}
-#name-list{
-  /* margin-left:-55px; */
-}
-
-#name-list li {
-  border: 1px dotted black;
-  margin-top:-20px;
-  font-size: 14px;
-  width: auto;
-  line-height: .5px;
-  /* display: table-cell; */
-  color: black;
-  /* text-align: ; */
-  display: inline-block;
-  /* overflow: hidden; */
-   
-}
-.list-padding{
-  padding-left: 10px;
+  float: right;
+  overflow: scroll;
+  }
+#actual-songs{
+  /*padding-left: 30px;*/
 }
 
 /*Addin Javascript changes*/
-/*.java-styling {
-  color:red;
-   width: 37.500em;
-  height: 23.688em;
- 
-}*/
 
+}
+#java-styling {
+  display: inline;
+}
+.java-styling:nth-child(2n+0)  {
+  background-color: #FFF5EE;
+}
+.java-styling:nth-of-type(2n+1)  {
+  background-color: #F5FFFA;
+}
 
 
 

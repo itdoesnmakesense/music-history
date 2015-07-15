@@ -1,128 +1,85 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
-    <title>Music Player</title>
-  </head>
-  <div id="page" id="main">
-    <header class="main-content">
-      <div id="nav-list">
-        <nav class="nav-content">
-          <a id= "no-dec" class="border-right" href="#">View Music</a>
-          <a class="border-right" href="#">Add Music</a>
-          <a href="#">Profile</a>
-        </nav>
-      </div>
-    </header>
-  <body>
-    <div id="options-box">
-        <section id="primary">
-          <div class="options-text"> 
-            <p>Song Length:</p>
-          </div>
-          <div class="input">
-            <input class="range" type="range">
-          </div>
-          <div class="options-text"> 
-            <p>Artists:</p>
-          </div>
-          <div class="input" >
-            <select class="drop-down" name="artists">
-              <option value="Options">Options</option>
-              <option value="Tink">Tink</option>
-              <option value="Azealia Banks">Azealia Banks</option>
-              <option value="Beyonce">Beyonce</option>
-              <option value="The Presets">The Presets</option>
-              <option value="Diplo">Diplo</option>
-            </select>
-          </div>
-           <div class="options-text"> 
-            <p>Album:</p>
-          </div>
-          <div class="input" >
-            <select class="drop-down" name="album">
-              <option value="Options">Options</option>
-              <option value="Pinkprint">Pinkprint</option>
-              <option value="B-Day">B-day</option>
-              <option value="Dangerously In Love">Dangerously In Love</option>
-              <option value="4">4</option>
-              <option value="Broke With Expensive Taste">Broke With Expensive Taste</option>
-            </select>
-          </div>
-          <div class="options-text"> 
-            <p>Genre:</p>
-          </div>
-          <div id="genre-text"class="input" >
-            <div id="column-one">
-            <ul>
-              <li><input class="padding" type="checkbox">Pop</li>
-              <li><input class="padding" type="checkbox">R&amp;B</li>
-              <li><input class="padding" type="checkbox">Seapunk</li>
-            </ul>
-          </div>
-          
-          <div id="column-two">
-            <ul>
-              <li><input class="padding" type="checkbox">Bubble Gum</li>
-              <li><input class="padding" type="checkbox">HealthGoth</li>
-              <li><input class="padding" type="checkbox">Rap</li>
-            </ul>
-          </div>
-          </div>
-          <div id="button-id">
-            <input class="button" type="button" onclick="alert('Watch Me Filter!')" value="Filter!" font-size:"14px">
-          </div>
-        </section>
-    </div>
-    <div id="songs-content" id="secondary" class="java-styling">
-
-      <!-- <div id="content-padding">
-        <div id="song-name">
-          <p>Ice Princess</p>
-        </div>
-        <div id="name-list">
-          <ul class="group-list">
-            <li class="list-padding border-right"><p>Azealia Banks</p></li>
-            <li class="list-padding border-right"><p>Broke With Expensive Taste</p></li>
-            <li class="list-padding"><p>Seapunk Rap</p></li>
-          </ul>
-        </div>
-        <div id="song-name">
-          <p>I Like</p>
-        </div>
-        <div id="name-list">
-          <ul>
-            <li class="list-padding border-right"><p>Tink</p></li>
-            <li class="list-padding border-right"><p>TBD</p></li>
-            <li class="list-padding"><p>Sad Gal R&amp;B</p></li>
-          </ul>
-        </div>
-        <div id="song-name">
-          <p>What's It Gonna Be</p>
-        </div>
-        <div id="name-list">
-          <ul>
-            <li class="list-padding border-right"><p>Beyonce</p></li>
-            <li class="list-padding border-right"><p>B-sides</p></li>
-            <li class="list-padding"><p>Fina steal ya man R&amp;B</p></li>
-          </ul>
-        </div>
-        <div id="song-name">
-          <p>Heavy Metal &amp; Reflective</p>
-        </div>
-        <div id="name-list">
-          <ul>
-            <li class="list-padding border-right"><p>Azealia Banks</p></li>
-            <li class="list-padding border-right"><p>BWET</p></li>
-            <li class="list-padding"><p>Mean Muggin Rap</p></li>
-          </ul>
-        </div>
-    
-      </div> -->
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="responsive.css">
+      <title>Music Player</title>
+    </head>
+  <body id="page">
+          <header class="main-content">
+            <div id="nav-list">
+              <nav class="nav-content">
+                <a id= "no-dec" class="border-right" href="#">View Music</a>
+                <a class="border-right" href="#">Add Music</a>
+                <a href="#">Profile</a>
+              </nav>
+            </div>
+          </header>
+    <div id="blue-container">
+            <div id="options-box">
+                <section id="primary">
+                    <div class="options-text"> 
+                      <p>Song Length:</p>
+                    </div>
+                          <div class="input">
+                            <input class="range" type="range">
+                          </div>
+                    <div class="options-text"> 
+                      <p>Artists:</p>
+                    </div>
+                          <div class="input" >
+                            <select class="drop-down" name="artists">
+                              <option value="Options">Options</option>
+                              <option value="Tink">Tink</option>
+                              <option value="Azealia Banks">Azealia Banks</option>
+                              <option value="Beyonce">Beyonce</option>
+                              <option value="The Presets">The Presets</option>
+                              <option value="Diplo">Diplo</option>
+                            </select>
+                          </div>
+                    <div class="options-text"> 
+                      <p>Album:</p>
+                    </div>
+                          <div class="input" >
+                            <select class="drop-down" name="album">
+                              <option value="Options">Options</option>
+                              <option value="Pinkprint">Pinkprint</option>
+                              <option value="B-Day">B-day</option>
+                              <option value="Dangerously In Love">Dangerously In Love</option>
+                              <option value="4">4</option>
+                              <option value="Broke With Expensive Taste">Broke With Expensive Taste</option>
+                            </select>
+                          </div>
+                    <div class="options-text"> 
+                      <p>Genre:</p>
+                    </div>
+                    <div id="genre-text"class="input" >
+                            <div id="column-one">
+                              <ul>
+                                <li><input class="padding" type="checkbox">Pop</li>
+                                <li><input class="padding" type="checkbox">R&amp;B</li>
+                                <li><input class="padding" type="checkbox">Seapunk</li>
+                              </ul>
+                            </div>
+                            <div id="column-two">
+                              <ul>
+                                <li><input class="padding" type="checkbox">Bubble Gum</li>
+                                <li><input class="padding" type="checkbox">HealthGoth</li>
+                                <li><input class="padding" type="checkbox">Rap</li>
+                              </ul>
+                            </div>
+                    </div>
+                    <div id="button-id">
+                        <input class="button" type="button" onclick="alert('Watch Me Filter!')" value="Filter!" font-size:"14px">
+                    </div>
+                </section>
+            </div>
+            <div id="songs-content">
+                <div id="actual-songs"class="java-styling">
+                </div>        
+            </div>
     </div>
     <script type="text/javascript" src="music.js"></script>
   </body>
-  </div>
 </html>

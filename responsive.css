@@ -15,11 +15,15 @@
   		float:right;
   	}
 
-
+    #blue-container {
+      width: 100%;
+    }
 
 }
 
 
 @media screen and (min-width:660px){
-	
+	#blue-container {
+      width: 100%;
+    }
 }
