@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
     <title>Music Player</title>
   </head>
-  <div id="page">
+  <div id="page" id="main">
     <header class="main-content">
       <div id="nav-list">
         <nav class="nav-content">
@@ -17,7 +18,7 @@
     </header>
   <body>
     <div id="options-box">
-        <section>
+        <section id="primary">
           <div class="options-text"> 
             <p>Song Length:</p>
           </div>
@@ -75,7 +76,8 @@
           </div>
         </section>
     </div>
-    <div id="songs-content">
+    <div id="songs-content" id="secondary" class="java-styling">
+
       <!-- <div id="content-padding">
         <div id="song-name">
           <p>Ice Princess</p>
