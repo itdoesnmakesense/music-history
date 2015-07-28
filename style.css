@@ -164,7 +164,7 @@ a:link {
   margin-top:20px;
   margin-left: 10px; 
   /*padding-left: 30px;*/
-  background-color: #4DD7FA;
+  /*background-color: #4DD7FA;*/
   float: right;
   overflow: scroll;
   }
@@ -185,7 +185,20 @@ a:link {
   background-color: #F5FFFA;
 }
 
+/*////////// Adding JSON ///////////*/
 
+.song-container{
+  background-color: #3399FF;
+  font-family:  'Lato',sans-serif;
+
+}
+.song-info{
+  font-size: 1em;
+}
+.song-title{
+  font-size: 1.5em;
+
+}
 
 
 
